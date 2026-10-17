@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/filippocarastro/MCU_solar
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: Apache-2.0
+  upstream_default_branch: MCU_solar
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: 4F9E
+  project: MCU for solar (MPPT)
+  size: caravel-upw
+  kind: digital
+  commit: bba2400631
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/4F9E
+  branch: tapeout/google/gf180mcu-mpw0/4F9E
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:39:01Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/4F9E
+- upstream/MCU_solar
